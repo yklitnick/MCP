@@ -5,10 +5,10 @@
             "command": "python",
             "args": ["Scenario1/fastmcp_calculator.py"]
         },
-        // "Calculator-HTTP": {
-        //     "command": "npx",
-        //     "args": ["mcp-remote", "http://localhost:8002/mcp"]
-        // },
+        "Calculator-HTTP": {
+            "command": "npx",
+            "args": ["mcp-remote", "http://localhost:8002/mcp"]
+        },
         "feed-STDIO": {
             "command": "python",
             "args": ["Scenario3/feed_mcp.py"]
